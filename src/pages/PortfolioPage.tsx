@@ -3,7 +3,6 @@ import { Percent } from "@/components/ui/Percent";
 import { Private } from "@/components/ui/Private";
 import { nanoid } from "nanoid";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./CryptoPage.css";
 import {
   faWallet,
   faCirclePlus,
