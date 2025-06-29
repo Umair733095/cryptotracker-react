@@ -1,0 +1,55 @@
+
+:root {
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #111827;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  cursor: pointer;
+
+  &:active {
+    border: none;
+  }
+}
+
+.App {
+  font-family: Inter, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
+  overflow-x: hidden;
+}
+
+
+.subheader {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+
+

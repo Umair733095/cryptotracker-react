@@ -1,0 +1,17 @@
+.labeling {
+  display: inline-block;
+  font-size: larger;
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+.cellStyle {
+  border: 1px solid rgb(203, 185, 69);
+  padding: 12px;
+  border-color: rgb(215, 157, 80);
+}
+
+.cellHeading {
+  font-size: large;
+  font-weight: bold;
+}
