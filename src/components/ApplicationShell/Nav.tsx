@@ -180,10 +180,10 @@ export const Nav = () => {
         {/* Mobile Controls */}
         <div className="flex xl:hidden items-center gap-2 w-fit max-w-[200px] text-gray-500 dark:text-gray-400">
           <button
-            className="flex items-center justify-center w-8 h-8 rounded-lg
-    hover:bg-gray-100 dark:hover:bg-gray-800
-    focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-700
-    transition-colors"
+            className="hidden sm:flex items-center justify-center w-8 h-8 rounded-lg
+  hover:bg-gray-100 dark:hover:bg-gray-800
+  focus:outline-none focus:ring-2 focus:ring-gray-200 dark:focus:ring-gray-700
+  transition-colors"
           >
             <FontAwesomeIcon icon={faMagnifyingGlass} className="text-lg" />
           </button>
